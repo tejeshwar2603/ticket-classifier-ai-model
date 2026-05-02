@@ -8,6 +8,8 @@ def classify_log(log):
         return 'Warning'
     elif re.search(r'INFO', log):
         return 'Info'
+    elif re.search(r'DEBUG', log):
+        return 'Debug'
     else:
         return 'Unknown'
     
