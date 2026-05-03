@@ -1,0 +1,4 @@
+log,label
+"connection failed",database_error
+"user login success",auth
+"timeout error",network
